@@ -1,0 +1,1 @@
+# aaos-custom-manifest
