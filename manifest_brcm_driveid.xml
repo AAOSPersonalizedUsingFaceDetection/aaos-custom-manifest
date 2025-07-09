@@ -46,6 +46,11 @@
            remote="github"
            revision="main" />
 
+           <project name="AAOSPersonalizedUsingFaceDetection/vendor_overlays"
+           path="vendor"
+           remote="github"
+           revision="main" />
+
     <project name="AAOSPersonalizedUsingFaceDetection/product_DriveID"
            path="device/brcm/AutoPersona"
            remote="github"
