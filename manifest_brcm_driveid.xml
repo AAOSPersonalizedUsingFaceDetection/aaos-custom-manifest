@@ -41,10 +41,16 @@
                 remote="github"
                 revision="main" />
 
+        <project name="AAOSPersonalizedUsingFaceDetection/AAOS_Driver_ID"
+           path="frameworks/apps"
+           remote="github"
+           revision="main" />
+
     <project name="AAOSPersonalizedUsingFaceDetection/product_DriveID"
            path="device/brcm/AutoPersona"
            remote="github"
            revision="main" />
+
 
 
 
