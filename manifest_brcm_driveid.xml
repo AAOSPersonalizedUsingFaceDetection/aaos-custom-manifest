@@ -12,16 +12,34 @@
 
 
 
-  <!-- Your custom components -->
-  <project name="AAOSPersonalizedUsingFaceDetection/PersonalizedAndroidApp"
+  <!-- You can uncomment the following lines to enable phase one application -->
+
+  <!-- <project name="AAOSPersonalizedUsingFaceDetection/PersonalizedAndroidApp"
            path="packages/apps"
            remote="github"
-           revision="main" />
+           revision="main" /> -->
 
-  <project name="AAOSPersonalizedUsingFaceDetection/PureCamStream"
+<!-- You can uncomment the following lines to enable phase two application -->
+
+  <!-- <project name="AAOSPersonalizedUsingFaceDetection/PureCamStream"
            path="frameworks/apps"
            remote="github"
-           revision="main" />
+           revision="main" /> -->
+
+        <project name="AAOSPersonalizedUsingFaceDetection/native_libs_tensorflow_lite-/tree/main/tensorflow-lite-api"
+                path="external"
+                remote="github"
+                revision="main" />
+
+        <project name="AAOSPersonalizedUsingFaceDetection/native_libs_tensorflow_lite-/tree/main/tensorflow-lite-support"
+                path="external"
+                remote="github"
+                revision="main" />
+
+        <project name="AAOSPersonalizedUsingFaceDetection/native_libs_tensorflow_lite-/tree/main/tensorflow-lite"
+                path="external"
+                remote="github"
+                revision="main" />
 
     <project name="AAOSPersonalizedUsingFaceDetection/product_DriveID"
            path="device/brcm/AutoPersona"
